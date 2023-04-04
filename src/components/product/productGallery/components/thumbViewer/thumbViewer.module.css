@@ -1,0 +1,8 @@
+.container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  border-radius: 6px;
+}

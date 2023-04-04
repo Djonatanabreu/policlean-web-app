@@ -1,0 +1,23 @@
+.thumbListContainer {
+  width: 100px;
+  height: 610px;
+}
+
+
+.thumbListContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.thumbListContainer li {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-color: rgb(212, 212, 212);
+  border-radius: 4px; */
+  margin: 5px;
+}

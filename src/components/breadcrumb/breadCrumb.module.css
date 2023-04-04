@@ -1,0 +1,30 @@
+.breadcrumb {
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.breadcrumb ul {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  padding: 0;
+}
+
+.breadcrumb-item li:target {
+  margin: 2px;
+  font-weight: 15px;
+}
+
+.breadcrumb-item hr {
+  height: 15px;
+  width: 1px;
+  background-color: grey;
+}
