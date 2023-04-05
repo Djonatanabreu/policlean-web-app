@@ -1,4 +1,4 @@
-import { BreadCrumb } from '@/components/breadcrumb/BreadCrumb';
+import { BreadCrumb } from '@/components/breadCrumb/BreadCrumb';
 import { ProductGallery } from '@/components/product/productGallery/ProductGallery';
 
 export default function Product() {

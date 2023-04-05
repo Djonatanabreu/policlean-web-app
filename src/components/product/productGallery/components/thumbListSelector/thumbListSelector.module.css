@@ -1,11 +1,16 @@
 .thumbListContainer {
   width: 100px;
-  height: 610px;
+  height: 600px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
 }
 
 
 .thumbListContainer ul {
+  overflow: scroll;
   list-style: none;
+  height: 560px;
   padding: 0;
   margin: 0;
 }
@@ -16,8 +21,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-style: solid;
+  border-style: solid;
   border-color: rgb(212, 212, 212);
-  border-radius: 4px; */
+  border-radius: 4px;
   margin: 5px;
 }

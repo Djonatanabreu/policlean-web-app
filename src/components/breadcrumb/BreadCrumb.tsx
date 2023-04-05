@@ -5,9 +5,9 @@ import { Fragment } from 'react';
 
 export const BreadCrumb = () => {
   const breadcrumbItems = [
-    { productId: '', title: 'home' },
-    { productId: '', title: 'product' },
-    { productId: 'product', title: 'productId' },
+    { productId: '1', title: 'home' },
+    { productId: '2', title: 'product' },
+    { productId: '3', title: 'productId' },
   ];
   return (
     <div className={classes.breadcrumb}>
