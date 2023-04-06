@@ -1,0 +1,10 @@
+.counterContainer {
+  width: 25vw;
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  border-radius: 6px; 
+}

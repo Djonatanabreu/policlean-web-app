@@ -1,3 +1,4 @@
+'use client';
 import { BreadCrumb, ProductDetail } from '@/components';
 
 import classes from './product.module.css';

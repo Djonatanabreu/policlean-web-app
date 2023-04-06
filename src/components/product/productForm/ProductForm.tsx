@@ -1,5 +1,8 @@
+import { Button } from '@/components/Button/Button';
 import classes from './formContainer.module.css';
-import { RatingStars } from './starRating/StarRating';
+import { PriceTray } from './priceTray/PriceTray';
+
+import { RatingStars } from './ratingStars/RatingStars';
 
 export const ProductForm = () => {
   return (
@@ -12,6 +15,7 @@ export const ProductForm = () => {
         <RatingStars />
       </div>
       <hr />
+      <PriceTray />
     </section>
   );
 };
