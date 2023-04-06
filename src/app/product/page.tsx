@@ -1,14 +1,12 @@
-import { BreadCrumb } from '@/components/breadcrumb/BreadCrumb';
-import { ProductGallery } from '@/components/product/productGallery/ProductGallery';
+import { BreadCrumb, ProductDetail } from '@/components';
+
+import classes from './product.module.css';
 
 export default function Product() {
   return (
-    <section>
-      <h1>This is a product Page</h1>
-      <div>
-        <BreadCrumb />
-        <ProductGallery />
-      </div>
+    <section className={classes.productPageContent}>
+      <BreadCrumb />
+      <ProductDetail />
     </section>
   );
 }

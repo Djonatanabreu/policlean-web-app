@@ -3,12 +3,12 @@ import classes from './thumbViewer.module.css';
 
 export const ThumbViewer = () => {
   return (
-    <div className={classes.container}>
+    <div className={classes.imageContainer}>
       <Image
         src={'/super_pos_obra_principal_5l.png'}
         alt={''}
-        width={600}
-        height={600}
+        width={340}
+        height={340}
       />
     </div>
   );

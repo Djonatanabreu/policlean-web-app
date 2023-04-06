@@ -1,0 +1,19 @@
+.controlsContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 95px;
+}
+
+.btn {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:hover .circle {
+  fill: #004C98;
+}
+
+.btn:hover .path {
+  stroke: white;
+}
