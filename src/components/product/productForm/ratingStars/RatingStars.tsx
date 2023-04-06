@@ -2,7 +2,7 @@
 
 import { Star } from '@/components/Icon/lib';
 import { useState } from 'react';
-import classes from './starRating.module.css';
+import classes from './ratingStars.module.css';
 
 export const RatingStars = () => {
   const stars = Array.from(Array(5).keys());
