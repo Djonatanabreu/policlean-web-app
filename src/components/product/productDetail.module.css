@@ -1,0 +1,16 @@
+.detailContainer {
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media (max-width:768px){
+  .detailContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+  }
+} */

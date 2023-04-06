@@ -1,7 +1,16 @@
+
 .galleryContainer {
-  width: 720px;
-  height: 620px;
+  width: 100vw;
   display: flex;
-  align-content: space-around;
+  flex-direction: column-reverse;
   align-items: center;
 }
+
+
+/* @media (max-width: 768px){ 
+  .galleryContainer {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+  }
+  } */

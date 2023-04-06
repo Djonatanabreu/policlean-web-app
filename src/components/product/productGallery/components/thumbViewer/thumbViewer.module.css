@@ -1,8 +1,21 @@
-.container {
-  width: 600px;
-  height: 600px;
+.imageContainer{
+  width: 95vw;
+  height: 400px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   border-style: solid;
   border-color: rgb(212, 212, 212);
-  border-radius: 6px;
-}
+  border-radius: 6px; 
+ }
+
+
+
+/* @media (max-width: 768px){
+  .container {
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+} */

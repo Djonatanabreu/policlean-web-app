@@ -1,28 +1,51 @@
 .thumbListContainer {
-  width: 100px;
-  height: 600px;
-  justify-content: space-around;
-  display: flex;
-  flex-direction: column;
+display: flex;
+ width: 95vw;
+ height: 110px;
+ justify-content: space-around;
+ align-items: center;
 }
 
-
-.thumbListContainer ul {
-  overflow: scroll;
-  list-style: none;
-  height: 560px;
-  padding: 0;
-  margin: 0;
+.thumbListContainer > ul {
+ display: flex;
+ width: 100vw;
+ height: 100px;
+ overflow: scroll;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ gap: 5vw;
 }
 
 .thumbListContainer li {
-  width: 80px;
-  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-style: solid;
   border-color: rgb(212, 212, 212);
   border-radius: 4px;
-  margin: 5px;
-}
+
+} 
+
+/* @media (max-width: 768px) {
+
+  .thumbListContainer {
+    width: 10%;
+    height: 600px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .thumbListContainer ul {
+    overflow: scroll;
+    list-style: none;
+    height: 560px;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+
+} */

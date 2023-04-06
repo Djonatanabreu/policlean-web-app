@@ -4,7 +4,7 @@ export const ArrowDown = ({
   fill = 'white',
   stroke = '#004C98',
   className = '',
-}: SVGProps<SVGElement>) => {
+}: SVGProps<SVGSVGElement>) => {
   const classes = className.split(' ');
   return (
     <svg width='28' height='28' viewBox='0 0 28 28' fill='none'>

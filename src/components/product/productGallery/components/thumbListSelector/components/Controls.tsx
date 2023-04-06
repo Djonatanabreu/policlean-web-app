@@ -2,26 +2,12 @@
 
 import { Icon } from '@/components/Icon/Icon';
 import classes from './controls.module.css';
-import { useState } from 'react';
+import { useRef } from 'react';
 
 export const Controls = () => {
-  const [fill, setFill] = useState<string>();
-  const [stroke, setStroke] = useState<string>();
   return (
     <div className={classes.controlsContainer}>
-      <div
-        className={classes.btn}
-        // onMouseEnter={() => {
-        //   console.log('hello');
-        //   setFill('#004C98');
-        //   setStroke('white');
-        // }}
-        // onMouseLeave={() => {
-        //   console.log('hello');
-        //   setFill('#004C98');
-        //   setStroke('white');
-        // }}
-      >
+      <div className={classes.btn}>
         <Icon
           className={`${classes.circle} ${classes.path}`}
           name='ArrowDown'

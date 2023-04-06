@@ -1,9 +1,14 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import classes from './thumbListSelector.module.css';
+import { useRef } from 'react';
 import { Controls } from './components/Controls';
 
 export const ThumbListSelector = () => {
+  const { current } = useRef([window.innerWidth]);
+
   const thumbImages = [
     { id: '1', text: '12helo', url: '/super_pos_obra_principal_5l.png' },
     { id: '2', text: '34helo', url: '/super_pos_obra_principal_5l.png' },
@@ -25,15 +30,15 @@ export const ThumbListSelector = () => {
                 <Image
                   src={thumb.url}
                   alt={thumb.text}
-                  width={70}
-                  height={70}
+                  width={90}
+                  height={80}
                 />
               </Link>
             </li>
           );
         })}
       </ul>
-      <Controls />
+      {current[0] <= 460 && <Controls />}
     </div>
   );
 };
