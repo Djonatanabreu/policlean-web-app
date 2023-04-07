@@ -1,0 +1,13 @@
+.showNavOptionsContainer {
+  position: fixed;
+  top: 40vw;
+  left: 72vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 330px;
+}
+
+.hiddenNavOptionsContainer{
+  display: none;
+}

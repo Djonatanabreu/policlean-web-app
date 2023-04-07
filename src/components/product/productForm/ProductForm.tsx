@@ -3,6 +3,7 @@ import classes from './formContainer.module.css';
 import { PriceTray } from './priceTray/PriceTray';
 
 import { RatingStars } from './ratingStars/RatingStars';
+import { ProductDelivery } from '../productDelivery/ProductDelivery';
 
 export const ProductForm = () => {
   return (
@@ -16,6 +17,7 @@ export const ProductForm = () => {
       </div>
       <hr />
       <PriceTray />
+      <ProductDelivery />
     </section>
   );
 };

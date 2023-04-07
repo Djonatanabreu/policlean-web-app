@@ -1,11 +1,16 @@
 import classes from './counter.module.css';
+import { ICounterProps } from './types';
 
-export const Counter = () => {
+export const Counter = ({
+  onAddHandler,
+  onSubHandler,
+  amountValue = 1,
+}: ICounterProps) => {
   return (
     <div className={classes.counterContainer}>
-      <p>-</p>
-      <p>{10}</p>
-      <p>+</p>
+      <button onClick={onSubHandler}>-</button>
+      <input value={amountValue} />
+      <button onClick={onAddHandler}>+</button>
     </div>
   );
 };
