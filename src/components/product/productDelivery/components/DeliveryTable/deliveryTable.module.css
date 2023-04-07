@@ -1,0 +1,39 @@
+
+.deliveryTableContainer {
+  text-align: center;
+  border-spacing: 0;
+  width: 90vw;
+  margin-bottom: 10px;
+}
+
+.deliveryTableContainer > thead  {
+  height: 40px;
+  background-color: #ececec;
+}
+
+.deliveryTableContainer > tbody > tr > td{
+  height: 50px;
+}
+
+.deliveryTableContainer > tbody > :nth-child(2){
+  background-color: #ececec;
+}
+
+
+.deliveryTableContainer > tbody > tr > :nth-child(n + 1){
+  width: 33vw;
+}
+.deliveryTableContainer > tbody > tr > :nth-child(1){
+  width: 33vw;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.deliveryTableContainer > tbody > :nth-child(1){
+background-color: #faf8f8;
+}
+
+
+.thFrete {
+  width: 33vw;
+}

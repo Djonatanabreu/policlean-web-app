@@ -1,0 +1,46 @@
+.deliveryContainer {
+  height: max-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.deliveryInput {
+ width: 85vw;
+ height: 50px;
+ border-style: solid;
+ border-radius: 6px;
+ background-color: #f7f6f6;
+ border-color: #F2F2F2;
+ display: flex;
+}
+
+.deliveryInput  > input {
+  height: 100%;
+  width: 65%;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 20px;
+  color: #959494;
+}
+
+.deliveryInput > button {
+  font-weight: 500;
+  height: 100%;
+  font-size: medium;
+  color: #004C98;
+  width: 30%;
+  border: none;
+  background-color: transparent;
+}
+
+.deliveryTitle > p {
+  margin: 0;
+  padding: 0;
+}
