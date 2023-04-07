@@ -1,0 +1,96 @@
+.usabilityContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #83bdd6 ;
+  color: #004C98;
+  padding: 15px;
+}
+
+.usabilityContainer > h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.usabilityContainer article {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.dilutionContainer {
+  position: relative;
+  width: 98vw;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #004C98;
+  border-radius: 20px;
+  
+}
+.title {
+  padding-inline: 15px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #83bdd6;
+}
+
+.proportionContainer {
+  display: flex;
+  align-items: center;
+  width: 95vw;
+  height: 16vw;
+  border-radius: 2rem;
+  border-style: solid;
+  margin-bottom: 10px;
+  border-color: #004C98;
+  justify-content: space-around;
+  padding-inline: 5px;
+
+}
+
+.proportionTitle {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.proportionInfo {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.circleProduct {
+  width: 10vw;
+  height: 10vw;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  color: #004C98;
+  background-color: #e23968;
+}
+
+.circleWater {
+  width: 10vw;
+  height: 10vw;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  color: #004C98;
+  background-color: #00f5ff;
+}

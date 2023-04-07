@@ -3,6 +3,7 @@ import { NavDescriptionOptions } from './NavDescriptionOptions/NavDescriptionOpt
 import classes from './productDescription.module.css';
 import { InfoCard } from './InfoCard/InfoCard';
 import { ProductBenefits } from './ProductBenefits/ProductBenefits';
+import { ProductUsability } from './ProductUsability/ProductUsability';
 
 export const ProductDescripton = () => {
   return (
@@ -59,6 +60,7 @@ export const ProductDescripton = () => {
         </div>
         <ProductBenefits />
       </div>
+      <ProductUsability />
       <NavDescriptionOptions />
     </div>
   );
