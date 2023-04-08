@@ -9,6 +9,7 @@
 #### Estou revisando o código para o layout responsivo acima de 1024 pixels.
 
 
+[![Watch the video]](https://youtu.be/qnr5zekIvBQ)
 
 
 ## Getting Started
