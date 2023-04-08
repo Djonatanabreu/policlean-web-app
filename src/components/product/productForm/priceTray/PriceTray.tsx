@@ -1,3 +1,5 @@
+'use client';
+
 import { Counter } from '@/components/Counter/Counter';
 import classes from './counter.module.css';
 import { Button } from '@/components/Button/Button';

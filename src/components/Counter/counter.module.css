@@ -25,3 +25,10 @@
   width: 30px;
   text-align: center;
 }
+
+@media(min-width:768px){
+  .counterContainer {
+    max-width: 10vw;
+    height: 60px;
+  }
+}

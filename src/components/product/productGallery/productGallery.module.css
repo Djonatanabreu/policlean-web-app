@@ -2,15 +2,32 @@
 .galleryContainer {
   width: 100vw;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
 }
 
+.galleryBox{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 55vw;
+  gap: 10px;
+}
 
-/* @media (max-width: 768px){ 
+
+@media (min-width: 768px){ 
   .galleryContainer {
-    background-color: aqua;
+    padding-inline: 8px;
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    gap: 10px;
   }
-  } */
+
+  .galleryBox{
+    display: flex;
+    flex-direction: row;
+    width: 55vw;
+    gap: 10px;
+  }
+
+  }

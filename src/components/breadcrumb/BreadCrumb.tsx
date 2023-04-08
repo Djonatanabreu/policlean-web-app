@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import classes from './breadCrumb.module.css';
-import { Fragment } from 'react';
 
 export const BreadCrumb = () => {
   const breadcrumbItems = [

@@ -1,3 +1,5 @@
+'use client';
+
 import { NavButton } from '@/components/NavButton/NavButton';
 import classes from './navDescriptionOptions.module.css';
 import { useEffect, useState } from 'react';
@@ -14,8 +16,6 @@ export const NavDescriptionOptions = () => {
       removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-  console.log(scrollValue);
 
   return (
     <div

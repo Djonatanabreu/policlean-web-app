@@ -23,8 +23,35 @@
   height: 18vw;
 }
 
-.infoBox > p {
+.infoBox :nth-child(2) {
   margin-left: 25vw;
   align-self: center;
   width: 65vw;
+}
+
+@media(min-width: 1024px){
+  .infoCardContainer {
+    flex-direction: row;
+    max-width: 90vw ;
+    max-height: 500px;
+  }
+  .infoBox {
+    display: flex;
+    position: relative;
+    text-align: center;
+    max-width: 30vw;
+    width: 30vw;
+    max-height: 6vw;
+  }
+  .infoImage {
+    max-width: 5vw;
+    max-height: 5vw;
+  }
+  .infoBox :nth-child(2){
+    align-self: center;
+    font-size: small;
+    margin: 0;
+    margin-left: 6vw;
+    width: 75%;
+  }
 }

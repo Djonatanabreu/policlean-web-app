@@ -1,8 +1,6 @@
-
-
+/* 
 .productDescriptionContainer {
   width: 100vw;
-  margin-top: 50px;
 }
 
 .ImagesContainer {
@@ -55,4 +53,45 @@
 
 .whatIsItSection :nth-child(4){
   font-size: 11px;
+} */
+
+@media(min-width: 1024px){
+  .whatItIsContainer{
+  }
+  /* .ImagesContainer { */
+    /* width: 30vw; 
+    height: 60vw; */
+  /* } */
+  /* 
+  .textContainer {
+  position: absolute;
+  max-width: 30vw;
+  width: 30vw;
+  max-height: 70vw;
+  height: 70vw;
+}
+
+*/
+  .wrapperTextDescription {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    background-color: #004C98 ;
+  }
+
+  .whatIsItSection {
+    color: white;
+    width: 30vw;
+  }
+
+  .productImage img {
+    position: absolute;
+  }
+
+  .blueBox {
+    display: none;
+  }
+
+
 }

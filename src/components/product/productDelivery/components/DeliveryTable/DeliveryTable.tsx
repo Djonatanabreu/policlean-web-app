@@ -20,7 +20,7 @@ export const DeliveryTable = () => {
         <tr>
           <td>CORREIOS SEDEX</td>
           <td>R$ 67,54</td>
-          <td>2 a 3 dias útei.s</td>
+          <td>2 a 3 dias úteis.</td>
         </tr>
       </tbody>
     </table>

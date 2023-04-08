@@ -1,3 +1,4 @@
+import { ProducGeneralInformation } from '../ProductGeneralInformation/ProductGeneralInformation';
 import { Dilution } from './Dilution/Dilution';
 import { StepsCard } from './StepsCard/StepsCard';
 import classes from './productUsability.module.css';
@@ -65,6 +66,7 @@ export const ProductUsability = () => {
           </div>
         </div>
       </article>
+      <ProducGeneralInformation />
     </section>
   );
 };

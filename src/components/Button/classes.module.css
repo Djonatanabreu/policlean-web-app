@@ -19,3 +19,15 @@
     border-radius: 8px;
     border-style: none;
 }
+
+@media(min-width:768px){
+  .btnContainer {
+    max-width: 20vw;
+    min-height: 60px;
+  }
+
+  .btnContainerLarge {
+    max-width: 30vw;
+    min-height: 60px;
+  }
+}

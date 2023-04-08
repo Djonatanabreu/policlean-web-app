@@ -15,7 +15,7 @@ export const ProductForm = () => {
       <div>
         <RatingStars />
       </div>
-      <hr />
+      {/* <hr /> */}
       <PriceTray />
       <ProductDelivery />
     </section>
