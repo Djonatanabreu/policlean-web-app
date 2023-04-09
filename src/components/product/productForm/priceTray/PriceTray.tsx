@@ -11,7 +11,7 @@ export const PriceTray = () => {
         <h1>{'R$75,00'}</h1>
         <p>Em até 12x de R$7,19</p>
       </div>
-      <div className={classes.trayBuyButton}>
+      <div className={classes.trayBuyContainer}>
         <Counter
           amountValue={value}
           onAddHandler={() => setValue(value + 1)}

@@ -18,7 +18,7 @@
 
 .formTitleBox > h1 {
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.3rem;
   color: #687175;
   margin: 0px;
   padding: 0;
@@ -27,7 +27,15 @@
 
 .formTitleBox > p {
   font-size: 13px;
-  color: #687175;
-  margin: 4px;
+  color: #687175; 
+  margin: 0;
+  margin-bottom: 10px;
   padding: 0;
+}
+
+@media(max-width: 330px){
+  .formTitleBox h1{
+    text-align: center;
+    max-width: 95%;
+  }
 }
