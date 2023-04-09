@@ -1,8 +1,8 @@
 import { ProductForm } from './productForm/ProductForm';
 import { ProductGallery } from './productGallery/ProductGallery';
 import classes from './productDetail.module.css';
-import { ProductDescripton } from './productDescription/ProductDescription';
-import { BreadCrumb } from '../BreadCrumb/BreadCrumb';
+import { ProductDescription } from './productDescription/ProductDescription';
+import { BreadCrumb } from '../breadcrumb/BreadCrumb';
 
 export const ProductDetail = () => {
   return (
@@ -12,7 +12,7 @@ export const ProductDetail = () => {
         <ProductGallery />
         <ProductForm />
       </section>
-      <ProductDescripton />
+      <ProductDescription />
     </div>
   );
 };

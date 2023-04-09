@@ -3,6 +3,7 @@
 .productDescriptionContainer {
   width: 100vw;
   margin-top: 50px;
+  position: relative;
 }
 
 .ImagesContainer {
@@ -27,20 +28,16 @@
 
 .textContainer {
   display: flex;
-  width: 100vw;
+  max-width: 100vw;
   background-color: #004C98;
   font-family: sans-serif;
   flex-direction: column;
-  align-items: center;
-  padding: 4vw;
+  padding-inline: 15px;
 }
 
-.wrapperTextDescription {
-  width: 100vw;
-  padding-inline: 10px;  
-}
 
 .whatIsItSection {
+  padding-inline: 10px;  
   color: white;
   width: 70vw;
 }

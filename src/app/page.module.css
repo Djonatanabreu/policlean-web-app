@@ -3,10 +3,11 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  width: 100vw;
+  flex: 1;
 }
 
 .productPageContent {
-  flex: 1;
   align-items: center;
   justify-content: center;
 }

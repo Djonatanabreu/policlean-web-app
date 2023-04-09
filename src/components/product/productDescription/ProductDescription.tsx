@@ -4,7 +4,7 @@ import classes from './productDescription.module.css';
 import { InfoCard } from './InfoCard/InfoCard';
 import { ProductBenefits } from './ProductBenefits/ProductBenefits';
 
-export const ProductDescripton = () => {
+export const ProductDescription = () => {
   return (
     <div className={classes.productDescriptionContainer}>
       <div className={classes.whatItIsContainer}>

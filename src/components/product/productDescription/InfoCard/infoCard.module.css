@@ -9,22 +9,42 @@
 .infoBox {
   border-radius: 5vw;
   background-color: white;
+  width: 350px;
   height: 22vw;
+  max-height: 60px;
   position: relative;
   display: flex;
   align-items: center;
   padding: 10px;
   font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .infoImage {
   position: absolute;
   width: 18vw;
   height: 18vw;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .infoBox > p {
-  margin-left: 25vw;
   align-self: center;
-  width: 65vw;
+  max-width: 70%;
+  position: absolute;
+  left: 70px;
+}
+
+@media (min-width: 820px){
+  .infoCardContainer {
+ flex-direction: row;
+ justify-content: space-around;
+  }
+}
+@media (max-width: 460px){
+  .infoBox {
+    max-width: 320px;
+    max-height: 60px;
+  }
 }

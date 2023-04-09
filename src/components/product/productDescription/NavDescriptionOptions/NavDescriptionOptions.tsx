@@ -20,7 +20,7 @@ export const NavDescriptionOptions = () => {
   return (
     <div
       className={
-        scrollValue >= 1070
+        scrollValue >= 1000
           ? classes.showNavOptionsContainer
           : classes.hiddenNavOptionsContainer
       }
