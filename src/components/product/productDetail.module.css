@@ -1,3 +1,7 @@
+.projectDetailContainer {
+ width: 100vw;
+}
+
 .detailContainer {
   display: flex;
    flex-direction: column;

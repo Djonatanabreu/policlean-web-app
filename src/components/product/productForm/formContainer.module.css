@@ -31,12 +31,3 @@
   margin: 4px;
   padding: 0;
 }
-
-.formContainer > hr {
-  background-color: #dcdcdc;
-  height: 1px;
-  border-style: none;
-  width: 90vw;
-  align-self: center;
-  margin: 5vw;
-}
