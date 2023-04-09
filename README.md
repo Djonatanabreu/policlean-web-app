@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Status Project Comments:
+
+### Neste Projeto eu iniciei o layout responsivo seguindo o fluxo Mobile First, Assim peço que avaliem neste quesito.
+
+### Criei o Projeto usando NextJS com Typescript pois acredito que para um e-commerce faz muito sentido trabalhar com frameworks que conseguem trazer melhores resultados nas pesquisas dos mecanismos de buscas. Assim dando enfase no SEO do aplicação. 
+
+#### Gosto de trabalhar com a árvore do projeto bem organizada. Usando componentização para cada logica da aplicação e então adicionar os componentes parentes as respectivas paginas. 
+
+#### Estou revisando o código para o layout responsivo acima de 1024 pixels.
+
+
+
+## Assista o Video de Apresentação (https://youtu.be/qnr5zekIvBQ)
+
 
 ## Getting Started
 
@@ -10,9 +23,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Status Project Comments:
-
-Neste Projeto eu iniciei o layout responsivo seguindo o fluxo Mobile First, Assim peço que avaliem neste quesito.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
