@@ -53,3 +53,7 @@
 .whatIsItSection :nth-child(4){
   font-size: 11px;
 }
+
+@media(min-width: 1020px){
+  
+}

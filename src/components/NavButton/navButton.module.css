@@ -1,8 +1,6 @@
 .navButtonContainer {
-  width: 28vw;
-
+  width: 24vw;
   height: 18vw;
-  
   background-color: #f1f1f1;
   border-radius: 8px;
   border-style: solid;
@@ -19,7 +17,7 @@
 
 @media(min-width: 820px){
   .navButtonContainer{
-    max-width: 260px;
+    max-width: 360px;
     max-height: 60px;
   }
 }
